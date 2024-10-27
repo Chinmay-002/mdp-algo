@@ -49,6 +49,10 @@ Example of the simulation output:
 ## Hyperparameters and Tuning
 
 ---
+
+<details>
+  <summary>Click to expand</summary>
+
 You can find most of the hyperparameters in the consts.py file. The hyperparameters are as follows:
 
 ### Algo hyperparams:
@@ -81,13 +85,17 @@ For more on turning the hardware movements to fit software requirements, see the
 
 `SAFE_COST`: The cost in case the robot is too close to an object
 
+</details>
 
 ## Acknowledgements
 
 ---
+<details>
+  <summary>Click to expand</summary>
 I used [pyesonekyaw](https://github.com/pyesonekyaw)'s MDP algorithm as a starting point, but reimplemented it and improved it significantly by adding new functionality. Multiple modifications were also made in order to fit the requirements specified by the other teams in my MDP group (AY 24-25 S1 Group 30).
 
 The original code can be found [in this repository](https://github.com/pyesonekyaw/CZ3004-SC2079-MDP-Algorithm).
+</details>
 
 ## Contributors
 
