@@ -1,5 +1,12 @@
-# mdp-algo
+# CZ3004/SC2079 Multidisciplinary Design Project (MDP) Algorithm
 
+
+## Overview
+
+---
+This is a repo containing the algorithm used by Group 30 for the Multidisciplinary Design Project (MDP) in AY24-25 S1. Final Result:
+- Task 1 - 1st Place (52s for 7 objects)
+- Task 2 - 4th Place 
 
 ## Setup 
 
@@ -92,6 +99,7 @@ For more on turning the hardware movements to fit software requirements, see the
 ---
 <details>
   <summary>Click to expand</summary>
+
 I used [pyesonekyaw](https://github.com/pyesonekyaw)'s MDP algorithm as a starting point, but reimplemented it and improved it significantly by adding new functionality. Multiple modifications were also made in order to fit the requirements specified by the other teams in my MDP group (AY 24-25 S1 Group 30).
 
 The original code can be found [in this repository](https://github.com/pyesonekyaw/CZ3004-SC2079-MDP-Algorithm).
@@ -100,4 +108,5 @@ The original code can be found [in this repository](https://github.com/pyesoneky
 ## Contributors
 
 ---
+
 [Lucas Ng Wei Jie](https://github.com/LucasNgWeiJie)
