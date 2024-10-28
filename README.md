@@ -58,7 +58,8 @@ Example of the simulation output:
 ---
 
 <details>
-  <summary>Click to expand</summary>
+  <summary>Click to expand</summary>  
+
 
 You can find most of the hyperparameters in the consts.py file. The hyperparameters are as follows:
 
@@ -86,7 +87,7 @@ the higher the chance the root make offset turns.
 
 `HALF_TURNS`: The number of grid squares the robot moves for a half turn on each axis. This must be tuned based on real robot movement. 
 
-For more on turning the hardware movements to fit software requirements, see the [`tools/movement.py`](https://github.com/Chinmay-002/mdp-algo/blob/main/tools/movement.py) for the `CommandGenerator`
+For more on tuning the hardware movements to fit software requirements, see the [`tools/movement.py`](https://github.com/Chinmay-002/mdp-algo/blob/main/tools/movement.py) for the `CommandGenerator` class.
 
 ### Deprecated hyperparams: 
 
@@ -98,7 +99,8 @@ For more on turning the hardware movements to fit software requirements, see the
 
 ---
 <details>
-  <summary>Click to expand</summary>
+  <summary>Click to expand</summary>  
+
 
 I used [pyesonekyaw](https://github.com/pyesonekyaw)'s MDP algorithm as a starting point, but reimplemented it and improved it significantly by adding new functionality. Multiple modifications were also made in order to fit the requirements specified by the other teams in my MDP group (AY 24-25 S1 Group 30).
 
